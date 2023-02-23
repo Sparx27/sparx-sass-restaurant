@@ -53,6 +53,22 @@ p {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .intro {
+    &-subtitle {
+      font-size: 1.45rem;
+    }
+  
+    &-title {
+      font-size: 1.95rem;
+    }
+
+    &-text {
+      font-size: 1.3rem;
+    }
+  }
+}
+
 .menu {
   .box-text {
     h3 {
