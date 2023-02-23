@@ -1,0 +1,17 @@
+.home {
+  background-color: $color-bg;
+
+  &-content {
+    @include flex-center(column);
+    max-width: 640px;
+    padding: 0 3rem;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+      width: 11rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+  }
+}

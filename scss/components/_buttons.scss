@@ -1,0 +1,31 @@
+.intro {
+  &-btn {
+    padding: .8rem 1.4rem;
+    border: 1.5px solid $color-white;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $color-white;
+    transition: .2s all;
+
+    &:hover {
+      background-color: rgba($color-primary, .9);
+    }
+  }
+}
+
+.order {
+  &-btn {
+    padding: .6rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $color-white;
+    background-color: $color-primary;
+    transition: .3s all;
+
+    &:hover {
+      background-color: darken($color-primary, 5%);
+    }
+  }
+}

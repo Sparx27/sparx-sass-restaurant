@@ -1,0 +1,31 @@
+.order {
+  background-color: $color-bg;
+
+  .order-box-container {
+    width: 50%;
+    min-width: 450px;
+    margin: 0 auto;
+
+    .order-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.5rem 0;
+      padding: 1rem;
+      border: .5px solid rgba($color-text, .2);
+      border-radius: 5px;
+
+      &-item {
+        @include flex-center(row);
+        width: 75%;
+
+        img {
+          width: 11.5rem;
+          height: 11.5rem;
+          margin-right: 1rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
