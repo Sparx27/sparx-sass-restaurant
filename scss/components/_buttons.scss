@@ -29,3 +29,11 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .order {
+    &-btn {
+      font-size: 1.15rem;
+    }
+  }
+}

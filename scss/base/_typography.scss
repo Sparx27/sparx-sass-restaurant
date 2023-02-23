@@ -107,6 +107,18 @@ p {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .order-box-text {
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 footer {
   p {
     color: $color-white;

@@ -1,16 +1,15 @@
 .order {
   background-color: $color-bg;
 
-  .order-box-container {
-    width: 50%;
-    min-width: 450px;
-    margin: 0 auto;
+  &-box-container {
+    padding: 0 3rem;
 
     .order-box {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 1.5rem 0;
+      width: 550px;
+      margin: 1.5rem auto;
       padding: 1rem;
       border: .5px solid rgba($color-text, .2);
       border-radius: 5px;
@@ -20,10 +19,25 @@
         width: 75%;
 
         img {
-          width: 11.5rem;
-          height: 11.5rem;
+          width: 10rem;
+          height: 10rem;
           margin-right: 1rem;
           border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .order {
+    &-box-container {
+      .order-box {
+        width: 100%;
+
+        img {
+          width: 8rem;
+          height: 8rem;
         }
       }
     }
